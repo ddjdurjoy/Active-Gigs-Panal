@@ -3,9 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fiverr Gigs Panel</title>
 </head>
 <body>
-    
+    <div class="title">
+        <h1 class="gigs">Gigs</h1>
+        <label for="custom-order">
+            <input type="checkbox" name="custom-order" id="custom-order">
+            <span>Accepting Custom Orders</span>
+        </label>
+    </div>
+    <div class="tabs">
+        <ul>
+            <li>ACTIVE</li>
+            <li>PENDING APPROVAL</li>
+            <li>REQUIRE ODIFICATION</li>
+            <li>DRAFT</li>
+            <li>DENIED</li>
+            <li>PAUSED</li>
+        </ul>
+        <div class="create-gig">CREATE A NEW GIG</div>
+    </div>
+    <div class="active-gigs-page">
+        <table>
+            <tr>
+                <td>ACTIVE GIGS</td>
+                <td>
+                    <select name="days" id="days">
+                        <option value="7-days">LAST 7 DAYS</option>
+                        <option value="14-days">LAST 14 DAYS</option>
+                        <option value="30-days">LAST 30 DAYS</option>
+                        <option value="2-months">LAST 2 MONTHS</option>
+                        <option value="3-months">LAST 3 MONTHS</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <table border="1">
+            <tr>
+                <td>
+                    <label for="all-gig">
+                        <input type="checkbox" name="all-gig" id="all-gig">
+                        GIG
+                    </label>
+                </td>
+                <td></td>
+                <td>IMPRESSIONS</td>
+                <td>CLICKS</td>
+                <td>ORDERS</td>
+                <td>CANCELLATIONS</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="all-gig">
+                        <input type="checkbox" name="all-gig" id="all-gig">
+                        GIG
+                    </label>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
